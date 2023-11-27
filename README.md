@@ -28,3 +28,14 @@ Outputs:
 evalsArr: Array of eigenvalues
 
 evecsArr: Array of corresponding eigenvectors
+
+How the operator should be input:
+
+1) Each scalar operator should be input as a string
+2) All operations should be included as needed (+,-,*,/,^)
+3) Operators must be input as D#, where # is the order of the operator
+4) Must input in decreasing order of operators
+5) The independent variable should always be x
+6) Vector problems should be input as a matrix of string operators (Ex: [[S1,S2],[S3,S4]], where each entry is a scalar operator of type string
+
+Example: "-D4-sin(x)*D2+a*D1+(1-a^2)sin(x)cos(x)"
