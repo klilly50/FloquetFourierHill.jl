@@ -38,4 +38,4 @@ How the operator should be input:
 5) The independent variable should always be x
 6) Vector problems should be input as a matrix of string operators (Ex: [[S1,S2],[S3,S4]], where each entry is a scalar operator of type string
 
-Example: "-D4-sin(x)*D2+a*D1+(1-a^2)sin(x)cos(x)"
+Example: "-D4-sin(x)\*D2+a\*D1+(1-a^2)sin(x)cos(x)"
