@@ -1,7 +1,7 @@
 # FloquetFourierHill.jl
 Computational implementation of the Floquet-Fourier-Hill method described in https://www.sciencedirect.com/science/article/pii/S0021999106001665 to compute the spectra of linear operators.
 
-\textbf{Inputs:} 
+Inputs:
 
 FFHM(period,numFourierModes,numFloqVals,P,opDim,opPrint,op1,op2=0)
 
@@ -20,3 +20,11 @@ opPrint: Boolean option to print out how the code interprets the user input oper
 op1: Linear operator
 
 op2 (optional): Optional second linear operator if you have a generalized eigenvalue problem
+
+Outputs: 
+
+(evalsArr,evecsArr) in addition to an interactive plot of the eigenvalues in the complex plane
+
+evalsArr: Array of eigenvalues
+
+evecsArr: Array of corresponding eigenvectors
